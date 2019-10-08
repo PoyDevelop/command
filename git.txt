@@ -1,0 +1,3 @@
+git config --global user.name "Amiearth"           	#กำหนดชื่อผู้ใช้
+git config --global user.email "example@mail.com" 	#กำหนดอีเมล์ของผู้ใช้
+git config --global --list 				ตรวจสองอีกครั้งหลังจากกำหนดค่าเสร็จแล้ว
