@@ -1,0 +1,9 @@
+.env 									#Config File
+
+php artisan key:generate						#Gen Key สำหรับ Project
+
+php artisan route:list							#ดูว่า Route ในโปรเจคมีอะไรบ้าง
+
+php artisan make:controller BlogController --resource			#สร้าง Controller และผูก Route ให้ด้วย
+
+php artisan crud:generate Posts --fields='title#string; content#text; category#select#options={"technology": "Technology", "tips": "Tips", "health": "Health"}' --view-path=admin --controller-namespace=Admin --route-group=admin --form-helper=html
