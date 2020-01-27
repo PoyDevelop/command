@@ -4,3 +4,19 @@ git config --global --list 				ตรวจสองอีกครั้งห�
 
 git config --system --unset credential.helper		#[-- ล้างค่า User Pass --]
 git config --global credential.helper store		#[-- สั่งให้จำ User Pass --]
+
+#เริ่มต้น git
+git init
+
+#ตั้งค่า remote ของ git
+git remote add origin https://github.com/xxx.git
+
+#remove remote origin
+git remote remove origin
+
+# NewProject
+git init
+git remote add origin https://gitlab.com/poydev1/poydev-folder.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
